@@ -1,0 +1,64 @@
+# 使用自定义 GitHub Actions 构建并部署 Jekyll 站点到 GitHub Pages
+# 这种方式会执行 `bundle install` + `bundle exec jekyll build`，
+# 因此 Gemfile 中的第三方插件（如 jekyll-tagging）都能正常生效，
+# 不受 GitHub Pages 内置 Jekyll 的插件白名单限制。
+
+name: Deploy Jekyll site to Pages
+
+on:
+  # 推送到 main 分支时触发
+  push:
+    branches: [main]
+  # 允许在 Actions 页面手动触发
+  workflow_dispatch:
+
+# 设置 GITHUB_TOKEN 的权限，使其可以部署到 GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同一时间只允许一个部署在运行，正在运行的会被新推送取消
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  # ============ 构建任务 ============
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'   # 根据 Gemfile 需要可调整
+          bundler-cache: true   # 缓存 bundle，加快后续构建
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        # --baseurl 由 configure-pages 自动提供（用户页为空，项目页为 /仓库名）
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload artifact
+        # 默认上传构建产物目录 _site
+        uses: actions/upload-pages-artifact@v3
+
+  # ============ 部署任务 ============
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
