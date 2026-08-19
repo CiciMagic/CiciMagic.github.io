@@ -48,6 +48,13 @@ google-analytics: # Add your identifier. For example UA-99631805-1.
 # Build settings
 markdown: kramdown
 permalink: ':title/'
+
+# Collections
+collections:
+  gallery:
+    output: true
+    permalink: /gallery/:title/
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
