@@ -2,7 +2,7 @@
 layout: post
 title:  "Designing with Solar: Lessons from Campus Solar Projects"
 date:   2025-08-14 12:00:00 +0000
-image:  '/images/solar-west-bank.jpg'
+image:  ''
 tags:   [Practice, Interview, Climate]
 author: Magic Sun
 ---
