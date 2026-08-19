@@ -4,7 +4,7 @@ title: Magic Planet
 logo: # You can add own logo. For example '/images/logo.png'.
 description: Magic Planet is a modern and minimal Jekyll theme for sharing your ideas.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://cicimagic.github.io" # the base hostname & protocol for your site
 
 
 #-------------------------------
