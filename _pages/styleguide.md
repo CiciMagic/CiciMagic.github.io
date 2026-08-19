@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GALLERY
-permalink: /styleguide/
+permalink: /gallery/
 image: '/images/14.jpg'
 ---
 
