@@ -1,8 +1,8 @@
 #-------------------------------
 # General Site Settings
-title: Hally
+title: Magic Planet
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Hally is a modern and minimal Jekyll theme for sharing your ideas.
+description: Magic Planet is a modern and minimal Jekyll theme for sharing your ideas.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -10,10 +10,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #-------------------------------
 # Author Settings
 author:
-  name: Howard Burns
-  image: '/images/01.jpg'
-  avatar: '/images/01.jpg'
-  description: My name is Howard Burns. I'm a freelance photographer based in Denver. I like being free and enjoying every moment.
+  name: Magic Sun
+  image: '/images/profile.jpg'
+  avatar: '/images/profile.jpg'
+  description: I’m a designer and natural strategist, drawn to beautiful things and curious about what makes them work. Welcome to my little idea garden.
 
 
 #-------------------------------
@@ -22,9 +22,9 @@ author:
 # Example of adding a new link to the footer - {icon: "ion-logo-github", link: "https://github.com"}
 # Other icons can be found at https://ionicons.com/v4/
 contact:
-- {name: "Twitter", icon: "ion-logo-twitter", link: "https://twitter.com"}
-- {name: "Facebook", icon: "ion-logo-facebook", link: "https://facebook.com"}
-- {name: "Dribbble", icon: "ion-logo-dribbble", link: "https://dribbble.com"}
+- {name: "LinkedIn", icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/magicsun/en"}
+- {name: "Instagram", icon: "ion-logo-instagram", link: "https://www.instagram.com/magicsun961/?hl=en"}
+- {name: "Email", icon: "ion-ios-mail", link: "mailto:magicsun961@gmail.com"}
 
 
 #-------------------------------
