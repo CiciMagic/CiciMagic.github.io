@@ -19,7 +19,17 @@ layout: default
 			<div class="container__inner">
 				<div class="contaniner__inner-box">
 					<div class="row grid">
-            {% for post in page.posts %}
+            {% assign tag_items = page.posts %}
+            {% unless tag_items %}
+              {% assign tag_items = '' | split: ',' %}
+            {% endunless %}
+            {% for item in site.gallery %}
+              {% if item.tags contains page.tag %}
+                {% assign tag_items = tag_items | push: item %}
+              {% endif %}
+            {% endfor %}
+            {% assign tag_items = tag_items | sort: 'date' | reverse %}
+            {% for post in tag_items %}
               {% include article-content.html %}
             {% endfor %}
 					</div>
