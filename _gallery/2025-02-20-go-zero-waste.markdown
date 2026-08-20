@@ -2,12 +2,12 @@
 layout: post
 title:  "Go Zero Waste!"
 date:   2025-02-20 12:00:00 +0000
-image:  '/images/gallery-gozero-02.jpg'
+image:  '/images/gallery-gozero-20.jpg'
 tags:   [Gallery]
 author: Magic Sun
 ---
 
-> *Decarbonize Luxembourg’s building & construction sector by a new circular system of materials.*
+> *Decarbonize Luxembourg’s building & construction sector by a new circular system of materials*
 
 ![Go Zero Waste! – Slide 1]({{site.baseurl}}/images/gallery-gozero-02.jpg)
 

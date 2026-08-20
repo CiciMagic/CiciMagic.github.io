@@ -120,5 +120,3 @@ We want people to see downtown revitalization not as a daunting billion-dollar p
 
 ![An “acupuncture-scale” intervention to activate the public and private interface]({{site.baseurl}}/images/revitalize-acupuncture.jpg)
 *Image 3.2 – An “acupuncture-scale” intervention to activate the public and private interface / credit: Magic Sun & Liwen Shi*
-
-*Originally published on SCAPE Journal, 2025 Vol. 2 Issue 41, pp. 20-29.*{: .post-disclaimer}

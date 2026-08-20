@@ -9,7 +9,7 @@ author: Magic Sun
 
 > *“Transform a major traffic corridor into a space for civic life.”*
 
-2025 ASLA Emerging Professionals Design Competition Winner, 2nd Place. A collaborative work with my friend Ruijie Liu.
+2025 ASLA Emerging Professionals Design Competition Winner 2nd Place. A collaborative work with my friend Ruijie Liu.
 
 ![From Boundary to Bond – Cover image]({{site.baseurl}}/images/gallery-epnola-cover.jpg)
 *From Boundary to Bond – cover image*

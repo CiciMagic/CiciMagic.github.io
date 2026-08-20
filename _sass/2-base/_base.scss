@@ -137,6 +137,18 @@ a {
   }
 }
 
+/* Article & page content links: underline + color to distinguish from body text */
+.post__content a,
+.page__content a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  color: #0a7ea4;
+  &:hover {
+    color: darken(#0a7ea4, 15%);
+  }
+}
+
 hr {
   display: block;
   height: 1px;
