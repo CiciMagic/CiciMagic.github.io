@@ -5,6 +5,7 @@ date:   2025-02-20 12:00:00 +0000
 image:  '/images/gallery-gozero-20.jpg'
 tags:   [Gallery]
 author: Magic Sun
+description: "Decarbonize Luxembourg’s building & construction sector by a new circular system of materials"
 ---
 
 > *Decarbonize Luxembourg’s building & construction sector by a new circular system of materials*

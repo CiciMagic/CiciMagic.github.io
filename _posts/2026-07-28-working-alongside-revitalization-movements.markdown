@@ -5,6 +5,7 @@ date:   2026-07-28 12:00:00 +0000
 image:  '/images/revitalize-cover.jpg'
 tags:   [Practice, City]
 author: "Magic Sun & Liwen Shi"
+description: "Last year, the Urban Land Institute San Francisco (ULI) hosted the Market Street Reimagined competition, supported by the City of San Francisco and leading NGOs. The initiative invited ideas from the public, welcoming participants from all backgrounds."
 ---
 
 ![Cover image – San Francisco Market Street]({{site.baseurl}}/images/revitalize-cover.jpg)
@@ -121,4 +122,4 @@ We want people to see downtown revitalization not as a daunting billion-dollar p
 ![An “acupuncture-scale” intervention to activate the public and private interface]({{site.baseurl}}/images/revitalize-acupuncture.jpg)
 *Image 3.2 – An “acupuncture-scale” intervention to activate the public and private interface / credit: Magic Sun & Liwen Shi*
 
-*Originally published on _SCAPE_ Journal, 2025 Vol. 2 Issue 41, pp.20-29. Read at [https://heyzine.com/flip-book/1d595dd1f7.html#page/21](https://heyzine.com/flip-book/1d595dd1f7.html#page/21)*{: .post-disclaimer}
+*Originally published on _SCAPE_ Journal, 2025 Vol. 2 Issue 41, pp.20-29. Read at [Heyzine](https://heyzine.com/flip-book/1d595dd1f7.html#page/21)*{: .post-disclaimer}

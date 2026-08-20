@@ -5,6 +5,7 @@ date:   2025-08-14 12:00:00 +0000
 image:  '/images/solar-west-bank.jpg'
 tags:   [Practice, Interview, Climate]
 author: Magic Sun
+description: "Each morning on my way to the office, I cross the SE Washington Avenue Bridge—one of the key links between the University of Minnesota’s East and West Bank campuses, stretching over the Mississippi River into downtown Minneapolis."
 ---
 
 ![One of the multiple solar arrays at the West Bank of University of Minnesota Twin Cities campus]({{site.baseurl}}/images/solar-west-bank.jpg)

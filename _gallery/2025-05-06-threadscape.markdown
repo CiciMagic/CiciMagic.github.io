@@ -5,6 +5,7 @@ date:   2025-05-06 12:00:00 +0000
 image:  '/images/gallery-threadscape-concept.jpg'
 tags:   [Gallery]
 author: Magic Sun
+description: "“Weaving Marou Village’s Energy, Water, and Community threads into an ecological artwork”"
 ---
 
 **“Weaving Marou Village’s Energy, Water, and Community threads into an ecological artwork”**
