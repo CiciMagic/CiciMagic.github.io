@@ -39,18 +39,18 @@ Over its four development phases, Nour has improved its cooling technology to re
 In arid regions, where resources are already scarce, introducing new developments like PV systems requires extra caution. Any unthoughtful expansion can lead to the destruction of fragile desert ecosystem and serious conflicts with communities. In a region rich in sunshine but scarce in water, dual land use with PV systems means harnessing solar power not only for energy production but also for improving water management practices and creating a more sustainable landscape.
 
 ![Section of the rivershed-scale water strategy]({{site.baseurl}}/images/arid-pv-section.jpg)
-*Section of the rivershed-scale water strategy / image: Magic Sun*
+*Section / image: Magic Sun*
 
-In the case of Nour, my design proposal emphasizes effective water management powered by solar energy across three distinct scales:
+In case of Nour, my design proposal emphasizes effective water management powered by solar energy across three distinct scales:
 
-1. **Rivershed Scale:** Upstream areas should decrease the extraction of stream flow for irrigation, while downstream areas should enhance stream water storage. Excess water can be injected into wells to refill the declining groundwater table. (See section above.)
+**1 – Rivershed Scale:** Upstream areas should decrease the extraction of stream flow for irrigation, while downstream areas should enhance stream water storage. Excess water can be injected into wells to refill the declining groundwater table. (See section above.)
 
-2. **Village Scale:** The design integrates rainwater collection systems and wastewater management into public spaces. Key components such as rooftop collectors, drainage channels, infiltration beds, and storage tanks will be strategically placed to maximize efficiency. (See diagram below.)
+**2 – Village Scale:** The design integrates rainwater collection systems and wastewater management into public spaces. Key components such as rooftop collectors, drainage channels, infiltration beds, and storage tanks will be strategically placed to maximize efficiency. (See diagram below.)
 
 ![Axonometric of the village-scale interventions]({{site.baseurl}}/images/arid-pv-axon.jpg)
 *Axonometric rain (top) and sun (bottom) / image: Magic Sun*
 
-3. **Site Scale:** In underutilized fields, active dew catching panels, also known as “hydropanels,” will be installed to harness solar energy to extract water from air for irrigation during dry seasons. The “pore” space between these hydropanels will support future agricultural and pastoral development.
+**3 – Site Scale:** In underutilized fields, active dew catching panels, also known as “hydropanels,” will be installed to harness solar energy to extract water from air for irrigation during dry seasons. The “pore” space between these hydropanels will support future agricultural and pastoral development.
 
 The strategic placement of the hydropanels is crucial—not only must solar production be considered, but the location must also have the highest regional humidity levels to maximize water extraction. Without comprehensive site-scale humidity mapping, initial site selection is guided by landscape indicators such as proximity to water sources (e.g., areas downwind of snow-capped mountains, riverbeds, or palm groves) and natural depressions in the topography. Overall, a deep understanding of local microclimate is essential for the site selection of a PV system in arid regions.
 
@@ -62,14 +62,14 @@ PV structures should be designed to create microclimates that support farming an
 ![Site plan]({{site.baseurl}}/images/arid-pv-siteplan.jpg)
 *Site plan / image: Magic Sun*
 
-### Agricultural Hydropanel Modules
+*Agricultural Hydropanel Modules*
 
 Linear berms are placed along contour lines, creating sloped growing spaces that naturally accumulate soil moisture. The spacing between the berms allows for easy access by agricultural machinery, such as tractors.
 
 ![Linear berms for agriculture]({{site.baseurl}}/images/arid-pv-topo.png)
 *Linear berms for agriculture / image: Magic Sun*
 
-### Grazing Hydropanel Modules
+*Grazing Hydropanel Modules*
 
 For grazing areas, berm “hills” are constructed under the PV panels. These hills are arranged in enclosed patterns facing moisture-carrying winds, forming mini valleys that trap moisture and create wind-free zones for nomads and their livestock.
 
