@@ -14,7 +14,9 @@
             {% if site.author.name %}
             <h1 class="author__name">{{site.author.name}}</h1>
             {% endif %}
-            {% if site.author.description %}
+            {% if site.author.home_description %}
+            <p class="author__desc">{{site.author.home_description}}</p>
+            {% elsif site.author.description %}
             <p class="author__desc">{{site.author.description}}</p>
             {% endif %}
             {% include contact-links.html %}

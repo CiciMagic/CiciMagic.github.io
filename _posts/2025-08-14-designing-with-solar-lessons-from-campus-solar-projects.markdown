@@ -40,15 +40,31 @@ The solar energy goal isn’t set in isolation—it supports the broader science
 
 At first glance, it might seem like there are plenty of places on campus to install solar arrays. But in reality, finding a location that can be committed to long-term use requires a tremendous amount of coordination.
 
-“**If we were looking at impacting one of the districts—whether by giving them a showpiece or a burden—we wanted to involve them in that conversation**,” said Jim Kochevar. This led to a large group of stakeholders being involved, including representatives from sustainability, energy management, electric utilities, campus planning, land care, environmental health and safety, and others, depending on the specific needs of each project.
+> If we were looking at impacting one of the districts—whether by giving them a showpiece or a burden—we wanted to involve them in that conversation.
+>
+> <cite>Jim Kochevar</cite>
 
-The process began with a comprehensive inventory of 72 potential sites, evaluated internally by the university team. As Mike Richardson explained, “**The way the project was structured reduced the chances for disagreement, because everyone was on board, contributing to a full list of possibilities before whittling it down.**” The team collaboratively developed selection criteria based on half a dozen key topics. The criteria for each site were evaluated on a four-point scale for each topic: no-go, negative (-1), neutral (0), and positive (+1). Energy management experts were often the first to flag sites as technically unfeasible. Across the criteria, some sites stood out with strong positive attributes, while others were ruled out early. This structured, collaborative approach ultimately led the team to identify a shortlist of top candidate sites for solar development.
+This led to a large group of stakeholders being involved, including representatives from sustainability, energy management, electric utilities, campus planning, land care, environmental health and safety, and others, depending on the specific needs of each project.
+
+The process began with a comprehensive inventory of 72 potential sites, evaluated internally by the university team.
+
+> The way the project was structured reduced the chances for disagreement, because everyone was on board, contributing to a full list of possibilities before whittling it down.
+>
+> <cite>Mike Richardson</cite>
+
+The team collaboratively developed selection criteria based on half a dozen key topics. The criteria for each site were evaluated on a four-point scale for each topic: no-go, negative (-1), neutral (0), and positive (+1). Energy management experts were often the first to flag sites as technically unfeasible. Across the criteria, some sites stood out with strong positive attributes, while others were ruled out early. This structured, collaborative approach ultimately led the team to identify a shortlist of top candidate sites for solar development.
 
 For the campus planner, making recommendations for a diverse portfolio of buildings and spaces—each at a different stage of use, condition, or future change—requires a broad, long-term perspective. They must balance current feasibility with future development to make smart decisions about expanding the number of solar arrays. **It’s not just about location, but also about timing: aligning solar installations with planned construction, renovation, or demolition is a key part of effective planning.**
 
 For energy managers and utilities engineers, several technical considerations come into play. One of the most important is **site capacity**, including the size of the site and its energy production potential. **Structural support** is also critical: rooftops may need reinforcement to bear the added weight, and ground-mounted systems require the floor suitable for drilling. **Access to existing utility infrastructure** is another key factor, as solar arrays must align with the electrical grid and meet demand. In urban areas, it is wise to take advantage of existing utility connections before considering sites without infrastructure, as the latter often results in high costs and can render a project impractical.
 
-For campus landscape architects and natural resource managers, concerns about the preservation of trees and the value of green space must be balanced with the potential benefits from solar infrastructure. As Tom Ritzer noted, “**If it’s the best scenario to remove the trees, that’s OK—but I think everyone needs to understand the trade-offs**.” A useful topic to explore is how to restore habitats and eco-services after installing solar panels, especially with a design that allows for safe and easy land care.
+For campus landscape architects and natural resource managers, concerns about the preservation of trees and the value of green space must be balanced with the potential benefits from solar infrastructure.
+
+> If it’s the best scenario to remove the trees, that’s OK—but I think everyone needs to understand the trade-offs.
+>
+> <cite>Tom Ritzer</cite>
+
+A useful topic to explore is how to restore habitats and eco-services after installing solar panels, especially with a design that allows for safe and easy land care.
 
 ![Native grasses between solar panels help support pollinators and insects]({{site.baseurl}}/images/native-grasses-solar.jpg)
 *Native grasses between solar panels help support pollinators and insects. / image: Hannah Lauber*
@@ -63,11 +79,19 @@ As a designer, I often imagine ways to integrate solar panels into site elements
 
 **Site Type: Rooftop vs. Parking Lot vs. Green Open Space**
 
-“**The idea of having multiple uses in the same space was part of our thinking, and we wanted to do that as much as possible**,” said Mike Richardson. Rooftops and parking lots are therefore appealing site types for solar arrays, as they have minimal impact on existing uses while still providing the benefits of energy production. Building-integrated solutions—such as rooftop or façade installations—are typically the most cost-effective, since they avoid the added costs of constructing standalone support structures, drilling, and potential conflicts with existing utility systems. However, these solutions require more upfront planning and the integration of sustainability goals from the very beginning of a new project.
+> The idea of having multiple uses in the same space was part of our thinking, and we wanted to do that as much as possible.
+>
+> <cite>Mike Richardson</cite>
+
+Rooftops and parking lots are therefore appealing site types for solar arrays, as they have minimal impact on existing uses while still providing the benefits of energy production. Building-integrated solutions—such as rooftop or façade installations—are typically the most cost-effective, since they avoid the added costs of constructing standalone support structures, drilling, and potential conflicts with existing utility systems. However, these solutions require more upfront planning and the integration of sustainability goals from the very beginning of a new project.
 
 Green open space might seem like another good option for solar arrays, but in reality, it’s rarer than we think. In urban areas, green space is a highly valued resource—for its ecological benefits, visual appeal, and recreational use. From a design perspective, it’s still a challenge to fully integrate solar panels into the landscape network. People are often hesitant about developing solar on these spaces. On top of that, many seemingly “vacant” green areas may have complex underground utility systems, making construction difficult or even unfeasible.
 
-“**Every site is unique and requires an open-minded, case-by-case approach**,” suggested Tom Ritzer. Each solar project has the potential to be part of a larger system (ecological, social, operational, etc.) beyond just energy production. That’s why systems thinking is so valuable: it can lead to more thoughtful and effective integration.
+> Every site is unique and requires an open-minded, case-by-case approach.
+>
+> <cite>Tom Ritzer</cite>
+
+Each solar project has the potential to be part of a larger system (ecological, social, operational, etc.) beyond just energy production. That’s why systems thinking is so valuable: it can lead to more thoughtful and effective integration.
 
 **4. From Campus to Community: Planning and Policy Insights**
 
@@ -83,9 +107,5 @@ In conclusion, there are five takeaways for land use and municipal planning:
 - Incorporate solar planning into building codes and early planning stages, ensuring alignment with broader goals in sustainability, infrastructure, and open space systems.
 - Engage interdisciplinary voices and community input early in the planning process.
 - Address maintenance and operations from the start to ensure long-term safety and feasibility.
-
-*Magic Sun, Associate ASLA, is a recent graduate from [Harvard Graduate School of Design](https://www.gsd.harvard.edu/) with a strong interest in sustainable design, striving to create meaningful change toward a low-carbon society at both strategic and practical levels. She enjoys using digital tools for research and cross-disciplinary work. Since 2023, she has been a project designer at [Coen+Partners](https://www.coenpartners.com/).*
-
-*For more about Magic, see her previous post for The Field, [Landscape-Based Approaches to Arid Photovoltaic Systems](https://www.asla.org/news/field/2025/04/landscape-based-approaches-to-arid-photovoltaic-systems), and her [Voices of Women in Landscape Architecture profile](https://www.asla.org/news/field/2025/03/voices-of-women-in-landscape-architecture-part-17).*
 
 *Originally published on The Field, the blog of the American Society of Landscape Architects (ASLA).*{: .post-disclaimer}

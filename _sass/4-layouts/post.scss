@@ -252,6 +252,16 @@
 /* Post disclaimer */
 .post-disclaimer {
   color: $gray;
+
+  a {
+    color: $gray;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+
+    &:hover {
+      color: $link-color-hover;
+    }
+  }
 }
 
 /* Center images inside the post content */

@@ -16,11 +16,13 @@
   var LOCK_DIRECTION_AT = 10;  // 判定滑动方向的起始位移(px)
   var EDGE_FRICTION = 0.3;     // 首/末图边缘拖动的阻尼系数
   var FLING_SPEED = 0.5;       // 快速轻扫判定速度(px/ms)
+  var MAX_CAPTION = 120;       // 副标题（正文第一段）最大长度
 
   var gallery = [];  // 当前打开的图片列表 [{ src, alt }]
   var index = 0;     // 当前图片索引
   var isOpen = false;
   var loadToken = 0; // 防止快速切换时旧图片的 onload 覆盖新图
+  var pageCaption = ''; // 副标题：所在文章正文的第一段内容
 
   // DOM 引用
   var lightboxEl, stageEl, imageEl, captionEl, counterEl, prevBtn, nextBtn;
@@ -106,6 +108,8 @@
     Array.prototype.forEach.call(containers, function (container) {
       var images = container.querySelectorAll('img');
       var list = [];
+      // 副标题取该文章/页面正文的第一段内容（而非图片注释）
+      var caption = getFirstParagraph(container);
 
       Array.prototype.forEach.call(images, function (img, i) {
         // 跳过被链接包裹的图片（它们是跳转链接，不弹窗）
@@ -118,15 +122,56 @@
         });
         img.style.cursor = 'zoom-in';
         img.addEventListener('click', function () {
-          open(list, i);
+          open(list, i, caption);
         });
       });
     });
   }
 
+  /* ---------------- 正文第一段提取 ---------------- */
+  // 规则：取第一个不含图片、非图片说明（紧跟在图片下方、纯斜体包裹）的
+  // 段落 / 引用块；跳过标题；返回截断后的“部分内容”。
+  function getFirstParagraph(container) {
+    var children = container.children;
+    var prevHasImage = false;
+    var i, el, tag, hasImage, text, onlyEm;
+
+    for (i = 0; i < children.length; i++) {
+      el = children[i];
+      tag = el.tagName;
+      hasImage = !!el.querySelector('img');
+
+      if (tag === 'P' || tag === 'BLOCKQUOTE') {
+        text = (el.textContent || '').replace(/\s+/g, ' ').trim();
+        onlyEm = el.children.length === 1 && el.children[0].tagName === 'EM';
+        // 跳过空段落
+        if (!text) {
+          prevHasImage = hasImage;
+          continue;
+        }
+        // 跳过图片下方的说明文字（如 *caption*，纯斜体、短句）
+        if (prevHasImage && onlyEm) {
+          prevHasImage = hasImage;
+          continue;
+        }
+        return truncateText(text, MAX_CAPTION);
+      }
+
+      // 标题 / 其它块级元素（img 等）只更新“前一个是否为图片段落”的状态
+      prevHasImage = hasImage || tag === 'IMG';
+    }
+    return '';
+  }
+
+  function truncateText(text, max) {
+    if (text.length <= max) { return text; }
+    return text.slice(0, max).replace(/\s+\S*$/, '') + '…';
+  }
+
   /* ---------------- 打开 / 关闭 ---------------- */
-  function open(list, startIndex) {
+  function open(list, startIndex, caption) {
     gallery = list;
+    pageCaption = caption || '';
     index = startIndex;
     isOpen = true;
     lightboxEl.classList.add('is-open');
@@ -162,10 +207,10 @@
     imageEl.style.opacity = 0;
     stageEl.classList.add('is-loading');
 
-    // 信息条
+    // 信息条：副标题显示文章正文第一段（而非图片 alt）
     counterEl.textContent = (index + 1) + ' / ' + gallery.length;
-    captionEl.textContent = item.alt || '';
-    captionEl.style.display = item.alt ? '' : 'none';
+    captionEl.textContent = pageCaption || '';
+    captionEl.style.display = pageCaption ? '' : 'none';
 
     // 箭头可用性
     prevBtn.classList.toggle('is-disabled', index === 0);
