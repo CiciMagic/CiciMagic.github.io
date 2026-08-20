@@ -1,0 +1,224 @@
+/* >>>>>>>>>>>>>> :: 1.8-Lightbox <<<<<<<<<<<<<<< */
+// 全屏图片查看器：点击正文图片弹出，支持触摸左右滑动 / 箭头 / 键盘切换
+// 移动端以触摸滑动为主，桌面端显示左右箭头按钮
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+  background-color: rgba(17, 18, 24, 0.95);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity .3s ease, visibility .3s ease;
+          transition: opacity .3s ease, visibility .3s ease;
+
+  &.is-open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__stage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 60px 14px 76px;
+    overflow: hidden;
+    cursor: -webkit-zoom-out;
+    cursor: zoom-out;
+    -webkit-tap-highlight-color: transparent;
+    -ms-touch-action: none;
+        touch-action: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    // 图片加载中的旋转指示器
+    &.is-loading::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 40px;
+      height: 40px;
+      margin: -20px 0 0 -20px;
+      border: 3px solid rgba(255, 255, 255, 0.2);
+      border-top-color: #fff;
+      border-radius: 50%;
+      -webkit-animation: lightbox-spin .8s linear infinite;
+              animation: lightbox-spin .8s linear infinite;
+    }
+  }
+
+  &__image {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+    opacity: 0;
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-transition: opacity .25s ease, -webkit-transform .25s ease;
+            transition: opacity .25s ease, transform .25s ease;
+    will-change: transform, opacity;
+    box-shadow: 0 14px 44px rgba(0, 0, 0, 0.45);
+    border-radius: 2px;
+
+    &.is-dragging {
+      -webkit-transition: none;
+              transition: none;
+    }
+  }
+
+  &__close {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    z-index: 3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.14);
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    -webkit-transition: background-color .2s ease, -webkit-transform .2s ease;
+            transition: background-color .2s ease, transform .2s ease;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.28);
+      -webkit-transform: rotate(90deg);
+              transform: rotate(90deg);
+    }
+  }
+
+  &__nav {
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-transition: background-color .2s ease, opacity .2s ease;
+            transition: background-color .2s ease, opacity .2s ease;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.24);
+    }
+
+    &.is-disabled {
+      opacity: .2;
+      pointer-events: none;
+    }
+
+    &--prev { left: 14px; }
+    &--next { right: 14px; }
+
+    // 手机上以触摸滑动为主，隐藏箭头避免遮挡
+    @media only screen and (max-width: $tablet) {
+      display: none;
+    }
+  }
+
+  &__bar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 44px 20px 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.85);
+    background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0.55), transparent);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.55), transparent);
+    pointer-events: none;
+  }
+
+  &__counter {
+    font-size: 12px;
+    letter-spacing: 1px;
+    opacity: .7;
+  }
+
+  &__caption {
+    max-width: 80%;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+
+// 打开时锁定页面滚动
+html.lightbox-open,
+body.lightbox-open {
+  overflow: hidden;
+}
+
+@-webkit-keyframes lightbox-spin {
+  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@keyframes lightbox-spin {
+  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
