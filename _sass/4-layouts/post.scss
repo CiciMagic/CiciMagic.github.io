@@ -248,3 +248,17 @@
     }
   }
 }
+
+/* Post disclaimer */
+.post-disclaimer {
+  color: $gray;
+}
+
+/* Center images inside the post content */
+.post__content {
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

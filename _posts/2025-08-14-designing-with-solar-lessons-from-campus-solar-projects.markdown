@@ -90,3 +90,8 @@ In conclusion, there are five takeaways for land use and municipal planning:
 - Engage interdisciplinary voices and community input early in the planning process.
 - Address maintenance and operations from the start to ensure long-term safety and feasibility.
 
+*Magic Sun, Associate ASLA, is a recent graduate from [Harvard Graduate School of Design](https://www.gsd.harvard.edu/) with a strong interest in sustainable design, striving to create meaningful change toward a low-carbon society at both strategic and practical levels. She enjoys using digital tools for research and cross-disciplinary work. Since 2023, she has been a project designer at [Coen+Partners](https://www.coenpartners.com/).*
+
+*For more about Magic, see her previous post for The Field, [Landscape-Based Approaches to Arid Photovoltaic Systems](https://www.asla.org/news/field/2025/04/landscape-based-approaches-to-arid-photovoltaic-systems), and her [Voices of Women in Landscape Architecture profile](https://www.asla.org/news/field/2025/03/voices-of-women-in-landscape-architecture-part-17).*
+
+*Originally published on The Field, the blog of the American Society of Landscape Architects (ASLA).*{: .post-disclaimer}

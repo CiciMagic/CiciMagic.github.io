@@ -1,0 +1,16 @@
+# Tools & temporary scripts
+_tools/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Ruby / Jekyll
+Gemfile.lock
+vendor/
+.sass-cache/
+.jekyll-cache/
+_site/
