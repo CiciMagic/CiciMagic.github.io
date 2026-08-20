@@ -10,7 +10,7 @@ author: "Magic Sun & Liwen Shi"
 ![Cover image – San Francisco Market Street]({{site.baseurl}}/images/revitalize-cover.jpg)
 *Cover image – San Francisco Market Street / image: Tunart/iStock*
 
-Last year, the Urban Land Institute San Francisco (ULI) hosted the Market Street Reimagined competition, supported by the City of San Francisco and leading NGOs. The initiative invited ideas from the public, welcoming participants from all backgrounds. As one of the most important boulevards through downtown San Francisco, Market Street has undergone severe decline. The competition is, therefore, part of a decade-long city effort to revitalize its urban core (See Image 1).
+Last year, the Urban Land Institute San Francisco (ULI) hosted the **Market Street Reimagined** competition, supported by the City of San Francisco and leading NGOs. The initiative invited ideas from the public, welcoming participants from all backgrounds. As one of the most important boulevards through downtown San Francisco, Market Street has undergone severe decline. The competition is, therefore, part of a decade-long city effort to revitalize its urban core (See Image 1).
 
 The decline here isn’t just a local issue, but a familiar story of American urban decay: emptying offices, vanishing retail, and a public realm struggling to compete with an increasingly online world.
 
@@ -120,3 +120,5 @@ We want people to see downtown revitalization not as a daunting billion-dollar p
 
 ![An “acupuncture-scale” intervention to activate the public and private interface]({{site.baseurl}}/images/revitalize-acupuncture.jpg)
 *Image 3.2 – An “acupuncture-scale” intervention to activate the public and private interface / credit: Magic Sun & Liwen Shi*
+
+*Originally published on _SCAPE_ Journal, 2025 Vol. 2 Issue 41, pp.20-29. Read at https://heyzine.com/flip-book/1d595dd1f7.html#page/21*{: .post-disclaimer}

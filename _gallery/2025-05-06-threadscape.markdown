@@ -7,12 +7,9 @@ tags:   [Gallery]
 author: Magic Sun
 ---
 
-> *“Weaving Marou Village’s Energy, Water, and Community threads into an ecological artwork”*
-
-LAGI 2025 submission. A collaborative work with my friends Yujin Cao, Doris Qingyi Duanmu, Yiwei Lyu, and Liwei Shen. View the full submission at [landartgenerator.org](https://landartgenerator.org/LAGI-2025/2025/06/14/threadscape-weaving-marou-villages-energy-water-and-community-threads-into-an-ecological-artwork/).
-
-![Threadscape – Concept diagram of weaving]({{site.baseurl}}/images/gallery-threadscape-concept.jpg)
-*Concept diagram – weaving*
+**“Weaving Marou Village’s Energy, Water, and Community threads into an ecological artwork”**
 
 ![Threadscape – Panel 2]({{site.baseurl}}/images/gallery-threadscape-panel.jpg)
 *LAGI 2025 Threadscape Panel 2*
+
+LAGI 2025 submission. A collaborative work with my friends Yujin Cao, Doris Qingyi Duanmu, Yiwei Lyu, and Liwei Shen. View the full submission at [landartgenerator.org](https://landartgenerator.org/LAGI-2025/2025/06/14/threadscape-weaving-marou-villages-energy-water-and-community-threads-into-an-ecological-artwork/)
