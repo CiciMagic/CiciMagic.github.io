@@ -46,6 +46,16 @@
                 </div>
                 <div class="tag__cloud">
                   {{ site | tag_cloud }}
+                  {% assign gallery_tags_shown = '' | split: ',' %}
+                  {% for item in site.gallery %}
+                    {% for tag in item.tags %}
+                      {% assign tag_slug = tag | slugify %}
+                      {% unless site.tags[tag] or gallery_tags_shown contains tag %}
+                        {% assign gallery_tags_shown = gallery_tags_shown | push: tag %}
+                        <a href="{{ site.baseurl }}/tag/{{ tag_slug }}" class="tag__link">{{ tag }}</a>
+                      {% endunless %}
+                    {% endfor %}
+                  {% endfor %}
                 </div>
               </div>
               {% endif %}
