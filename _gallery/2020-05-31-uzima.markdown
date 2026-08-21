@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Uzima: Spaces of Nourishment and Healing"
+date:   2020-05-31 12:00:00 +0000
+image:  '/images/gallery-uzima-cover.jpg'
+tags:   [Gallery]
+author: Magic Sun
+description: "Imagine a therapeutic garden in Tanzania, inspired by the Chagga homegarden"
+---
+
+> *Imagine a therapeutic garden in Tanzania, inspired by the Chagga homegarden.*
+
+![Uzima – Page 1]({{site.baseurl}}/images/gallery-uzima-page-1.jpg)
+
+![Uzima – Page 2]({{site.baseurl}}/images/gallery-uzima-page-2.jpg)
+
+![Uzima – Page 3]({{site.baseurl}}/images/gallery-uzima-page-3.jpg)
+
+![Uzima – Page 4]({{site.baseurl}}/images/gallery-uzima-page-4.jpg)
+
+*Travel to Tanzania was supported by the 2019 Cornell Engaged Learning in Anthropology Scholarship, with special thanks to Professor Stacey Langwick of Cornell’s Department of Anthropology.*{: .post-disclaimer}
