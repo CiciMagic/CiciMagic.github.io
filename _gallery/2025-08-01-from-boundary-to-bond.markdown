@@ -5,7 +5,7 @@ date:   2025-08-01 12:00:00 +0000
 image:  '/images/gallery-epnola-cover.jpg'
 tags:   [Gallery]
 author: Magic Sun
-description: "“Transform a major traffic corridor into a space for civic life.”"
+description: "Transform a major traffic corridor into a space for civic life.”"
 ---
 
 > *“Transform a major traffic corridor into a space for civic life.”*
