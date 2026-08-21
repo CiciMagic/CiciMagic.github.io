@@ -8,7 +8,7 @@ author: Magic Sun
 description: "Transform a major traffic corridor into a space for civic life."
 ---
 
-> *Transform a major traffic corridor into a space for civic life.”*
+> *Transform a major traffic corridor into a space for civic life.*
 
 ![From Boundary to Bond – Project panel]({{site.baseurl}}/images/gallery-epnola-main.jpg)
 *Road medians and traffic circles are often overlooked urban spaces with untapped potential.*
