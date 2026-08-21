@@ -9,7 +9,7 @@ description: "As the world shifts from fossil fuels to renewable energy, solar p
 ---
 
 ![Arid photovoltaic landscape]({{site.baseurl}}/images/arid-pv-main.jpg)
-*Arid photovoltaic landscape / image: Magic Sun*
+*Arid photovoltaic landscape*
 
 ## Overview
 
@@ -24,14 +24,14 @@ The [Nour Power Station in Morocco](https://www.wri.org/update/morocco-ensuring-
 Located in the southern Moroccan desert near the Atlas Mountains, Nour sits on former communal grazing land (see diagram below). Despite its vast size, it employs only about 60 engineers, prioritizing energy production over local engagement.
 
 ![Site location of the Nour Power Station]({{site.baseurl}}/images/arid-pv-location.jpg)
-*Site location of the Nour Power Station / image: Magic Sun*
+*Site location of the Nour Power Station*
 
 It’s easy to overlook, given the barren arid landscape, that the area around the Nour Plant is actually rich in culture and history. This location is at a cultural crossroads along the scenic Marrakesh-Merzouga route, a gateway to the Sahara. Just 10 minutes east of Nour, there’s a chain of oasis villages, some now abandoned, that rely on seasonal springs from the mountains. This traditional setting is in stark contrast to the high-tech solar plant nearby.
 
 These villages, however, face increasing challenges. With jobs scarce and droughts worsening, traditional farming and nomadic lifestyles are declining. Water distribution is highly imbalanced, with upstream almond farms consuming more resources while downstream communities struggle with dry channels and dwindling groundwater. Meanwhile, Nour itself requires up to three million cubic meters of water annually for cooling and panel cleaning—equivalent to the yearly consumption of 5,000 households (see diagram below).
 
 ![Water use analysis of the Nour Power Station]({{site.baseurl}}/images/arid-pv-diagram-2.jpg)
-*Water management analysis of the Nour Power Station / image: Magic Sun*
+*Water management analysis of the Nour Power Station*
 
 Over its four development phases, Nour has improved its cooling technology to reduce water use. As a massive infrastructure project attracting global investment, it has the potential to drive innovation, but this must come with a greater sense of social responsibility.
 
@@ -40,7 +40,7 @@ Over its four development phases, Nour has improved its cooling technology to re
 In arid regions, where resources are already scarce, introducing new developments like PV systems requires extra caution. Any unthoughtful expansion can lead to the destruction of fragile desert ecosystem and serious conflicts with communities. In a region rich in sunshine but scarce in water, dual land use with PV systems means harnessing solar power not only for energy production but also for improving water management practices and creating a more sustainable landscape.
 
 ![Section of the rivershed-scale water strategy]({{site.baseurl}}/images/arid-pv-section-new.jpg)
-*Section / image: Magic Sun*
+*Section*
 
 In case of Nour, my design proposal emphasizes effective water management powered by solar energy across three distinct scales:
 
@@ -49,7 +49,7 @@ In case of Nour, my design proposal emphasizes effective water management powere
 **2 – Village Scale:** The design integrates rainwater collection systems and wastewater management into public spaces. Key components such as rooftop collectors, drainage channels, infiltration beds, and storage tanks will be strategically placed to maximize efficiency. (See diagram below.)
 
 ![Axonometric of the village-scale interventions]({{site.baseurl}}/images/arid-pv-axon.jpg)
-*Axonometric rain (top) and sun (bottom) / image: Magic Sun*
+*Axonometric rain (top) and sun (bottom)*
 
 **3 – Site Scale:** In underutilized fields, active dew catching panels, also known as “hydropanels,” will be installed to harness solar energy to extract water from air for irrigation during dry seasons. The “pore” space between these hydropanels will support future agricultural and pastoral development.
 
@@ -58,29 +58,26 @@ The strategic placement of the hydropanels is crucial—not only must solar prod
 PV structures should be designed to create microclimates that support farming and grazing in arid regions, too. In agrivoltaics, solar panels can act like “cover crops,” lowering temperatures and improving rainwater capture. Inspired by local date palm farming, which uses berm-surrounded basins to retain water, my design adapts this concept to PV systems. Integrating soil work with PV installation enhances water retention and creates microclimates for arid agropastoral landscapes. Two types of landforms are designed to serve either agriculture or grazing purposes (see diagram below and site plan):
 
 ![Before irrigation (top) and after irrigation (bottom)]({{site.baseurl}}/images/arid-pv-irrigation-new.jpg)
-*Before irrigation (top) and after irrigation (bottom) / image: Magic Sun*
+*Before irrigation (top) and after irrigation (bottom)*
 
 ![Site plan]({{site.baseurl}}/images/arid-pv-siteplan.jpg)
-*Site plan / image: Magic Sun*
+*Site plan*
 
 *Agricultural Hydropanel Modules*
 
 Linear berms are placed along contour lines, creating sloped growing spaces that naturally accumulate soil moisture. The spacing between the berms allows for easy access by agricultural machinery, such as tractors.
 
 ![Linear berms for agriculture]({{site.baseurl}}/images/arid-pv-topo.png)
-*Linear berms for agriculture / image: Magic Sun*
+*Linear berms for agriculture*
 
 *Grazing Hydropanel Modules*
 
 For grazing areas, berm “hills” are constructed under the PV panels. These hills are arranged in enclosed patterns facing moisture-carrying winds, forming mini valleys that trap moisture and create wind-free zones for nomads and their livestock.
 
 ![View of berm “hills” for grazing]({{site.baseurl}}/images/arid-pv-berm-hills.jpg)
-*View of berm “hills” for grazing / image: Magic Sun*
+*View of berm “hills” for grazing*
 
 ## What’s Next?
 
 As landscape architects, we bring a unique perspective that can greatly contribute to energy planning, and it’s time for us to actively engage in this evolving field. This will be an ongoing research focus for me, and I hope to gain a deeper understanding of how solar panels impact the environment in three dimensions while exploring innovative layout strategies.
 
-*Magic Sun, Associate ASLA, is a recent graduate from [Harvard Graduate School of Design](https://www.gsd.harvard.edu/) with a strong interest in sustainable design, striving to create meaningful change toward a low-carbon society at both strategic and practical levels. She enjoys using digital tools for research and cross-disciplinary work. Since 2023, she has been a project designer at [Coen+Partners](https://www.coenpartners.com/).*
-
-*For more about Magic, see her [Voices of Women in Landscape Architecture profile](https://www.asla.org/news/field/2025/03/voices-of-women-in-landscape-architecture-part-17).*
