@@ -81,4 +81,4 @@ For grazing areas, berm “hills” are constructed under the PV panels. These h
 
 As landscape architects, we bring a unique perspective that can greatly contribute to energy planning, and it’s time for us to actively engage in this evolving field. This will be an ongoing research focus for me, and I hope to gain a deeper understanding of how solar panels impact the environment in three dimensions while exploring innovative layout strategies.
 
-*Studio Work of GSD Spring 23' Studio, with special thanks to Prof. Stefan Tischer. Originally published on [The Field](https://www.wri.org/update/morocco-ensuring-large-scale-renewable-installation-benefits-local-communities).*{: .post-disclaimer}
+*Studio Work of GSD Spring 23' Studio, with special thanks to Prof. Stefan Tischer. Originally published on [The Field](https://www.asla.org/news-insights/the-field/landscape-based-approaches-to-arid-photovoltaic-systems).© Magic Sun. All rights reserved.*{: .post-disclaimer}
