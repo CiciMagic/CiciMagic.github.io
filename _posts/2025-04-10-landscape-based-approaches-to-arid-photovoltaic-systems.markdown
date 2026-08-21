@@ -39,7 +39,7 @@ Over its four development phases, Nour has improved its cooling technology to re
 
 In arid regions, where resources are already scarce, introducing new developments like PV systems requires extra caution. Any unthoughtful expansion can lead to the destruction of fragile desert ecosystem and serious conflicts with communities. In a region rich in sunshine but scarce in water, dual land use with PV systems means harnessing solar power not only for energy production but also for improving water management practices and creating a more sustainable landscape.
 
-![Section of the rivershed-scale water strategy]({{site.baseurl}}/images/arid-pv-section.jpg)
+![Section of the rivershed-scale water strategy]({{site.baseurl}}/images/arid-pv-section new.jpg)
 *Section / image: Magic Sun*
 
 In case of Nour, my design proposal emphasizes effective water management powered by solar energy across three distinct scales:
