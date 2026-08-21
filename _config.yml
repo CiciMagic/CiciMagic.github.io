@@ -14,7 +14,7 @@ author:
   image: '/images/profile.jpg'
   avatar: '/images/profile.jpg'
   # 首页顶部作者简介（保持原内容）
-  home_description: Designer and natural strategist. Drawn to beautiful things, curious about what makes them happen.
+  home_description: Designer and natural strategist. Drawn to beautiful things, <br /> curious about what makes them happen.
   # 底部 About Me（新内容）
   description: Magic Sun is a graduate from Harvard Graduate School of Design with a strong interest in sustainable design, striving to create meaningful change toward a low-carbon society at both strategic and practical levels.
 
