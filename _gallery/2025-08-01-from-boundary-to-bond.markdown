@@ -11,6 +11,6 @@ description: "Transform a major traffic corridor into a space for civic life.”
 > *“Transform a major traffic corridor into a space for civic life.”*
 
 ![From Boundary to Bond – Project panel]({{site.baseurl}}/images/gallery-epnola-main.jpg)
-*EP NOLA 2025 project panel*
+*Road medians and traffic circles are often overlooked urban spaces with untapped potential.*
 
-2025 ASLA Emerging Professionals Design Competition Winner 2nd Place. A collaborative work with my friend Ruijie Liu.
+*2025 ASLA Emerging Professionals Design Competition Winner 2nd Place. A collaborative work with my friend Ruijie Liu.*
