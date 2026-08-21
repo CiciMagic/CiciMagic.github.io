@@ -13,4 +13,4 @@ description: "Weaving Marou Village’s Energy, Water, and Community threads int
 ![Threadscape – Panel 2]({{site.baseurl}}/images/gallery-threadscape-panel.jpg)
 *Energy generates by solar panels will power both the village and its stormwater purification system.*
 
-*LAGI 2025 submission. A collaborative work with my friends Yujin Cao, Doris Qingyi Duanmu, Yiwei Lyu, and Liwei Shen. View the full submission at [landartgenerator.org](https://landartgenerator.org/LAGI-2025/2025/06/14/threadscape-weaving-marou-villages-energy-water-and-community-threads-into-an-ecological-artwork/)*
+*LAGI 2025 submission. A collaborative work with my friends Yujin Cao, Doris Qingyi Duanmu, Yiwei Lyu, and Liwei Shen. View the full submission at [landartgenerator.org](https://landartgenerator.org/LAGI-2025/2025/06/14/threadscape-weaving-marou-villages-energy-water-and-community-threads-into-an-ecological-artwork/)*{: .post-disclaimer}
