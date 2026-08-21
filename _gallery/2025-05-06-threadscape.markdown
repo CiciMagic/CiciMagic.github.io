@@ -8,7 +8,7 @@ author: Magic Sun
 description: "Weaving Marou Village’s Energy, Water, and Community threads into an ecological artwork"
 ---
 
-> *“Weaving Marou Village’s Energy, Water, and Community threads into an ecological artwork”*
+> *Weaving Marou Village’s Energy, Water, and Community threads into an ecological artwork*
 
 ![Threadscape – Panel 2]({{site.baseurl}}/images/gallery-threadscape-panel.jpg)
 *Energy generates by solar panels will power both the village and its stormwater purification system.*
