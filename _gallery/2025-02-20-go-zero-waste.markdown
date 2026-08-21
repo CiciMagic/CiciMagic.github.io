@@ -60,4 +60,4 @@ description: "Decarbonize Luxembourg’s building & construction sector by a new
 
 ![Go Zero Waste! – Slide 25]({{site.baseurl}}/images/gallery-gozero-29.jpg)
 
-*Studio Work of GSD Fall 22' Studio, with special thanks to Prof. Aglaée Degros and Stefan Bendiks. This project was feature in [Territorial Urbanism Now!](https://www.tugraz.at/en/fakultaeten/architektur/publications/monographs-collected-volumes/territorial-urbanism-now).© Magic Sun. All rights reserved.*{: .post-disclaimer}
+*Studio Work of GSD Fall 22' Studio, with special thanks to Prof. Aglaée Degros and Prof. Stefan Bendiks. This project was featured in [Territorial Urbanism Now!](https://www.tugraz.at/en/fakultaeten/architektur/publications/monographs-collected-volumes/territorial-urbanism-now)© Magic Sun. All rights reserved.*{: .post-disclaimer}
