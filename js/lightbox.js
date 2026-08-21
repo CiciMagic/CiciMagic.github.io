@@ -128,9 +128,9 @@
   }
 
   /* ---------------- 图片注释提取 ---------------- */
-  // 规则：优先取紧跟在图片所在段落之后、纯斜体（<em>）包裹的说明文字
-  // （markdown `![img]` 后 `*cap*` 渲染为 <p><img></p><p><em>cap</em></p>）；
-  // 没有说明文字时回退到图片的 alt / data-title。
+  // 规则：只取与图片同一段落、紧跟其后的纯斜体（<em>）说明文字（markdown 中
+  // `![img]` 与 `*cap*` 连续两行、无空行时，kramdown 合并为 <p><img …/><em>cap</em></p>），
+  // 或 <figure><figcaption>；图片没有注释时不显示（返回空串）。
   function getImageCaption(img, container) {
     // 向上找到包含该图片的段落
     var node = img.parentNode;
@@ -139,7 +139,7 @@
       node = node.parentNode;
     }
     if (!node || node === container) {
-      return img.alt || img.getAttribute('data-title') || '';
+      return '';
     }
 
     // <figure><figcaption>…</figcaption></figure> 结构
@@ -149,33 +149,25 @@
         var figText = (figCaption.textContent || '').replace(/\s+/g, ' ').trim();
         if (figText) { return truncateText(figText, MAX_CAPTION); }
       }
-      return img.alt || img.getAttribute('data-title') || '';
+      return '';
     }
 
-    // <p><img></p> 后紧跟 <p><em>说明</em></p>：跳过空段找第一个说明段落
-    var sibling = node.nextElementSibling;
-    while (sibling) {
-      var tag = sibling.tagName;
-      var text = (sibling.textContent || '').replace(/\s+/g, ' ').trim();
-
-      if (!text) { // 空段落跳过
-        sibling = sibling.nextElementSibling;
-        continue;
+    // 同一段落内、图片之后的 <em> 说明
+    var sawImage = false;
+    var kids = node.children;
+    for (var k = 0; k < kids.length; k++) {
+      if (kids[k] === img) { sawImage = true; continue; }
+      if (!sawImage) { continue; }
+      // 图片后的第一个元素子节点：若是 <em> 即视为本图注释
+      if (kids[k].tagName === 'EM') {
+        var emText = (kids[k].textContent || '').replace(/\s+/g, ' ').trim();
+        if (emText) { return truncateText(emText, MAX_CAPTION); }
       }
-
-      if (tag === 'P' || tag === 'BLOCKQUOTE') {
-        var onlyEm = sibling.children.length === 1 && sibling.children[0].tagName === 'EM';
-        if (onlyEm) {
-          return truncateText(text, MAX_CAPTION);
-        }
-        break; // 非纯斜体段落：说明到此为止
-      }
-
-      sibling = sibling.nextElementSibling;
+      break; // 图片后第一个元素不是 <em>，不再从本段取注释
     }
 
-    // 回退：alt 文本
-    return img.alt || img.getAttribute('data-title') || '';
+    // 图片没有注释：不显示
+    return '';
   }
 
   function truncateText(text, max) {
