@@ -68,7 +68,7 @@ PV structures should be designed to create microclimates that support farming an
 Linear berms are placed along contour lines, creating sloped growing spaces that naturally accumulate soil moisture. The spacing between the berms allows for easy access by agricultural machinery, such as tractors.
 
 ![Linear berms for agriculture]({{site.baseurl}}/images/arid-pv-topo.png)
-*Linear berms for agriculture*
+*Agricultural Hydropanel Modules on berms*
 
 *Grazing Hydropanel Modules*
 
