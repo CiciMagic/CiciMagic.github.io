@@ -11,7 +11,7 @@ description: "The King Abdullah Financial District Park is the first project in 
 ![Cover image – KAFD Park]({{site.baseurl}}/images/KAFD_cover.png)
 *Cover image – KAFD Park / image: Landworks Studio*
 
-Saudi Arabia is experiencing an unprecedented wave of rapid urbanization and modernization. At the center of this transformation is a concerted effort to redefine the nation’s global image through a commitment to sustainability. Amid the country's growing adoption of green building frameworks, the **King Abdullah Financial District (KAFD) Park** achieved a milestone as the first project in Saudi Arabia to earn SITES certification, a challenging endeavor given the region's desert climate.
+Saudi Arabia is experiencing an unprecedented wave of rapid urbanization and modernization. At the center of this transformation is a concerted effort to redefine the nation’s global image through a commitment to sustainability. Amid the country's growing adoption of green building frameworks, the [King Abdullah Financial District (KAFD) Park](https://www.landworks-studio.com/kafd-park) achieved a milestone as the first project in Saudi Arabia to earn SITES certification, a challenging endeavor given the region's desert climate.
 
 Consider a climate where summer temperatures routinely exceed 45°C (113°F) and the region receives less than 100 mm (> 4 inches) of rainfall annually. Hot, dry conditions shape everyday life, making shade, misting systems, and nighttime activities essential for outdoor comfort. 
 
@@ -64,4 +64,4 @@ By moving beyond quantitative metrics and prioritizing the physical engineering 
 ![Nighttime View]({{site.baseurl}}/images/KAFD_Night.png)
 *Designed to reflect local outdoor nightlife habits, the park provides well-lit spaces that support nighttime activities. / credit: Landworks Studio*
 
-*Originally published on [USGBC website](https://heyzine.com/flip-book/1d595dd1f7.html#page/21). Special thanks to the Landworks Studio KAFD project team for sharing project information.*{: .post-disclaimer} 
+*Originally published on [USGBC website](https://www.usgbc.org/articles/translating-sites-climate-resilience-arid-landscapes). Special thanks to the Landworks Studio KAFD project team for sharing project information.*{: .post-disclaimer} 
