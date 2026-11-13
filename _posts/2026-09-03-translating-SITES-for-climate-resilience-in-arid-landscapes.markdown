@@ -64,4 +64,4 @@ By moving beyond quantitative metrics and prioritizing the physical engineering 
 ![Nighttime View]({{site.baseurl}}/images/KAFD_Night.png)
 *Designed to reflect local outdoor nightlife habits, the park provides well-lit spaces that support nighttime activities. / credit: Landworks Studio*
 
-*Originally published on [USGBC website](https://heyzine.com/flip-book/1d595dd1f7.html#page/21) Special thanks to the Landworks Studio KAFD project team for sharing project information.*{: .post-disclaimer} 
+*Originally published on [USGBC website](https://heyzine.com/flip-book/1d595dd1f7.html#page/21). Special thanks to the Landworks Studio KAFD project team for sharing project information.*{: .post-disclaimer} 
