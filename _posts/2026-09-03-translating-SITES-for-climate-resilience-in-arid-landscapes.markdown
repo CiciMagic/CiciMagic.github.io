@@ -13,7 +13,11 @@ description: "The King Abdullah Financial District Park is the first project in 
 
 Saudi Arabia is experiencing an unprecedented wave of rapid urbanization and modernization. At the center of this transformation is a concerted effort to redefine the nation’s global image through a commitment to sustainability. Amid the country's growing adoption of green building frameworks, the **King Abdullah Financial District (KAFD) Park** achieved a milestone as the first project in Saudi Arabia to earn SITES certification, a challenging endeavor given the region's desert climate.
 
-Consider a climate where summer temperatures routinely exceed 45°C (113°F) and the region receives less than 100 mm (> 4 inches) of rainfall annually. Hot, dry conditions shape everyday life, making shade, misting systems, and nighttime activities essential for outdoor comfort. This is the daily reality for the residents of Riyadh. Yet local communities have lived with these extremes for centuries, developing their own forms of resilience to thrive. Long before modern infrastructure, they constructed irrigation channels that stretched for kilometers through mountain valleys, supplying palm groves and the shaded crops beneath their canopies. Today, the city uses complex, centralized water infrastructure to harvest and recycle water multiple times before discharge. Sustainability, in many ways, has long been embedded in Saudi Arabia's local practices.
+Consider a climate where summer temperatures routinely exceed 45°C (113°F) and the region receives less than 100 mm (> 4 inches) of rainfall annually. Hot, dry conditions shape everyday life, making shade, misting systems, and nighttime activities essential for outdoor comfort. 
+
+This is the daily reality for the residents of Riyadh. Yet local communities have lived with these extremes for centuries, developing their own forms of resilience to thrive. Long before modern infrastructure, they constructed irrigation channels that stretched for kilometers through mountain valleys, supplying palm groves and the shaded crops beneath their canopies. 
+
+Today, the city uses complex, centralized water infrastructure to harvest and recycle water multiple times before discharge. Sustainability, in many ways, has long been embedded in Saudi Arabia's local practices.
 
 SITES provided a landscape-focused framework that complemented the LEED strategy for the overall built environment, offering both third-party validation and international recognition. As the first SITES Gold-certified project in Saudi Arabia, KAFD Park tested how a global benchmark translates to a markedly different climate and ecological context. **The standard’s adaptability has enabled its global expansion, but the project team’s experience suggests that greater recognition of regional priorities and innovative pathways could create additional incentives for broader adoption in the future while preserving a globally consistent core.**
 
@@ -41,7 +45,11 @@ Water features provide a good example. While widely recognized as a passive cool
 ![KAFD Park incorporated multiple features to create an integrated cooling microclimate]({{site.baseurl}}/images/KAFD_Cooling.jpg)
 *KAFD Park incorporated multiple features to create an integrated cooling microclimate. / credit: Landworks Studio*
 
-Trees are another essential component of thermal resilience. Beyond providing shade, they foster microclimates and enhance biodiversity in ways that artificial shade structures alone cannot. KAFD Park incorporates more than 300 trees alongside nine shade structures. Notably, the design team specified a number of "hero trees"— large, mature specimens that establish a dense canopy from day one. These trees required rigorous procurement and acclimation, spending time in nurseries until they were adapted to thrive under local site conditions. While native plants are important, the design reflects a pragmatic reality: in a context where indigenous desert flora is often sparse and low-lying, the use of adaptive species is a necessary strategy and encouraged by the SITES v2 Rating System to optimize biomass and effectively mitigate the urban heat island effect.
+Trees are another essential component of thermal resilience. Beyond providing shade, they foster microclimates and enhance biodiversity in ways that artificial shade structures alone cannot. 
+
+KAFD Park incorporates more than 300 trees alongside nine shade structures. Notably, the design team specified a number of "hero trees"— large, mature specimens that establish a dense canopy from day one. These trees required rigorous procurement and acclimation, spending time in nurseries until they were adapted to thrive under local site conditions. 
+
+While native plants are important, the design reflects a pragmatic reality: in a context where indigenous desert flora is often sparse and low-lying, the use of adaptive species is a necessary strategy and encouraged by the SITES v2 Rating System to optimize biomass and effectively mitigate the urban heat island effect.
 
 ### Investments in social infrastructure
 
